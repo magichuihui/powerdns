@@ -10,5 +10,5 @@ ADD pdns.conf /etc/pdns/pdns.conf
 
 
 RUN yum install -y epel-release yum-plugin-priorities \
-    && yum install -y pdns pdns-recursor pdns-backend-mysql && yum clean all -y
+    && yum install -y pdns pdns-backend-mysql && yum clean all -y
 
