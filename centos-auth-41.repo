@@ -1,0 +1,17 @@
+[powerdns-auth-41]
+name=PowerDNS repository for PowerDNS Authoritative Server - version 4.1.X
+baseurl=http://repo.powerdns.com/centos/$basearch/$releasever/auth-41
+gpgkey=file:///etc/pki/rpm-gpg/powerdns.asc
+gpgcheck=1
+enabled=1
+priority=90
+includepkg=pdns*
+
+[powerdns-auth-41-debuginfo]
+name=PowerDNS repository for PowerDNS Authoritative Server - version 4.1.X debug symbols
+baseurl=http://repo.powerdns.com/centos/$basearch/$releasever/auth-41/debug
+gpgkey=file:///etc/pki/rpm-gpg/powerdns.asc
+gpgcheck=1
+enabled=0
+priority=90
+includepkg=pdns*
